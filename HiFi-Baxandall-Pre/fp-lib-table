@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name TristanValves)(type KiCad)(uri "$(KIPRJMOD)/TristanValves.pretty")(options "")(descr ""))
+  (lib (name TristanPots)(type KiCad)(uri "$(KIPRJMOD)/TristanPots.pretty")(options "")(descr ""))
+)
