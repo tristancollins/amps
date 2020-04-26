@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PhasePCB-rescue)(type Legacy)(uri ${KIPRJMOD}/PhasePCB-rescue.lib)(options "")(descr ""))
+  (lib (name TristanValvesSch)(type Legacy)(uri ${KIPRJMOD}/TristanValvesSch.lib)(options "")(descr ""))
+)

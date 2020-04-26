@@ -1,0 +1,13 @@
+Refs,Value,Footprint,QTY,MFR,MPN,SPR,SPN
+C1;C3,CP,Capacitors_THT:CP_Radial_D10.0mm_P5.00mm,2,Nichicon,UPW2C100MPD,,647-UPW2C100MPD
+C4,C,Capacitors_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal,1,,,,
+J3,Screw_Terminal_1x04,Connectors_Phoenix:PhoenixContact_MCV-G_04x5.08mm_Vertical,1,,,,651-1729144
+J4,Screw_Terminal_1x06,Connectors_Phoenix:PhoenixContact_MCV-G_06x5.08mm_Vertical,1,,,,651-1729160
+R3;R6,R,Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,,,,
+R7,R,Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal,1,,,,
+C2,CP,TristanValves:CP_Radial_D18.0mm_P7.50mm,1,Nichicon,UCA2W220MHD6,,647-UCA2W220MHD6
+J13,Screw_Terminal_1x01,TristanValves:MountingHole_3.2mm_M3_Pad,1,,,,
+J2;J1;J5,Screw_Terminal_1x02,TristanValves:PhoenixContact_MCV-G_02x5.08mm_Vertical,3,,,,651-1729128
+RV1,POT_TRIM,TristanValves:Potentiometer_Trimmer_Bourns_3339P_Horizontal,1,,,,652-3339P-1-105LF
+R2;R5;R4;R1;R8,R,TristanValves:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,5,,,,
+U1,ECC83,TristanValves:VALVE-ECC-83-1-TC2,1,,,,
