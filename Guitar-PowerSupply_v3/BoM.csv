@@ -1,0 +1,10 @@
+Refs,Value,Footprint,QTY,MFR,MPN,SPR,SPN
+C2;C3,CP,Capacitors_THT:CP_Axial_L46.0mm_D20.0mm_P52.00mm_Horizontal,2,,,,
+C1;C4;C5,CP,Capacitors_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm,3,Nichicon,UPW2C100MPD,,647-UPW2C100MPD
+J1;J5;J2;J3,Screw_Terminal_1x03,Connectors_Phoenix:PhoenixContact_MCV-G_03x5.08mm_Vertical,4,,1729131,,651-1729131
+D2;D3;D4;D6;D1;D5,D,Diodes_THT:Diode_DO-41_SOD81_Horizontal_RM10,6,,,,
+TP1;TP2;TP3;TP4,TP,Measurement_Points:Test_Point_Keystone_5005-5009_Compact,4,,,,534-5006
+J4,Screw_Terminal_1x01,Mounting_Holes:MountingHole_3.2mm_M3_Pad,1,,,,
+RV1;RV2,POT_TRIM,Potentiometers:Potentiometer_Trimmer_Bourns_3339S_Vertical,2,Bournes,3386P-1-103TLF,,652-3386P-1-103TLF
+R1;R3;R5;R6;R7;R8;R2;R9,R,Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,8,,,,
+R4,R,Resistors_THT:R_Axial_DIN0922_L20.0mm_D9.0mm_P30.48mm_Horizontal,1,,,,

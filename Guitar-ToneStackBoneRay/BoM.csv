@@ -1,0 +1,10 @@
+Refs,Value,Footprint,QTY,MFR,MPN,SPR,SPN
+C2,1n,Capacitors_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal,1,,,,
+C3;C4,4.7n,Capacitors_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal,2,,,,
+C5,100n,Capacitors_THT:C_Axial_L22.0mm_D9.5mm_P27.50mm_Horizontal,1,,,,
+C1,220p,Capacitors_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm,1,,,,
+J1;J2,Screw_Terminal_1x02,Connectors_Phoenix:PhoenixContact_MCV-G_02x5.08mm_Vertical,2,,,,651-1729128
+RV1,1M,Connectors_Phoenix:PhoenixContact_MCV-G_03x5.08mm_Vertical,1,,1729131,,651-1729131
+RV2,1M log,Connectors_Phoenix:PhoenixContact_MCV-G_03x5.08mm_Vertical,1,,1729131,,651-1729131
+R1;R2,470k,Resistors_THT:Resistor_Horizontal_RM10mm,2,,,,
+J3,Screw_Terminal_1x01,Wire_Pads:SolderWirePad_single_1mmDrill,1,,,,
