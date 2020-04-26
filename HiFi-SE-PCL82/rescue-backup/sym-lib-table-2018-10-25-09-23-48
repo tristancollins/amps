@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name DABamp-rescue)(type Legacy)(uri ${KIPRJMOD}/DABamp-rescue.lib)(options "")(descr ""))
+  (lib (name TristanValvesSch)(type Legacy)(uri ${KIPRJMOD}/TristanValvesSch.lib)(options "")(descr ""))
+)

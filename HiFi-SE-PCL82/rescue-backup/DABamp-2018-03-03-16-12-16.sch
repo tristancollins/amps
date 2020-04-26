@@ -1,0 +1,860 @@
+EESchema Schematic File Version 2
+LIBS:TristanValvesSch
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:DABamp-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R11
+U 1 1 59383BDA
+P 6435 2765
+F 0 "R11" V 6515 2765 50  0000 C CNN
+F 1 "1k" V 6435 2765 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6365 2765 50  0001 C CNN
+F 3 "" H 6435 2765 50  0001 C CNN
+	1    6435 2765
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 59383C2D
+P 5900 3700
+F 0 "R10" V 5980 3700 50  0000 C CNN
+F 1 "680r" V 5900 3700 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 5830 3700 50  0001 C CNN
+F 3 "" H 5900 3700 50  0001 C CNN
+	1    5900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 59383C57
+P 5450 3100
+F 0 "R9" V 5530 3100 50  0000 C CNN
+F 1 "10k" V 5450 3100 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 3100 50  0001 C CNN
+F 3 "" H 5450 3100 50  0001 C CNN
+	1    5450 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 59383C8C
+P 3350 3000
+F 0 "R5" V 3430 3000 50  0000 C CNN
+F 1 "10k" V 3350 3000 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3280 3000 50  0001 C CNN
+F 3 "" H 3350 3000 50  0001 C CNN
+	1    3350 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 59383CB9
+P 4915 2805
+F 0 "C1" H 4940 2905 50  0000 L CNN
+F 1 "100n" H 4940 2705 50  0000 L CNN
+F 2 "TristanValves:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal" H 4953 2655 50  0001 C CNN
+F 3 "" H 4915 2805 50  0001 C CNN
+	1    4915 2805
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C2
+U 1 1 59383E0C
+P 6200 3700
+F 0 "C2" H 6225 3800 50  0000 L CNN
+F 1 "47u" H 6225 3600 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm_P7.50mm" H 6238 3550 50  0001 C CNN
+F 3 "" H 6200 3700 50  0001 C CNN
+	1    6200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 59384021
+P 7825 2135
+F 0 "R12" V 7905 2135 50  0000 C CNN
+F 1 "160r" V 7825 2135 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 7755 2135 50  0001 C CNN
+F 3 "" H 7825 2135 50  0001 C CNN
+	1    7825 2135
+	0    1    1    0   
+$EndComp
+$Comp
+L C C4
+U 1 1 593840CD
+P 8385 2885
+F 0 "C4" H 8410 2985 50  0000 L CNN
+F 1 "?" H 8410 2785 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 8423 2735 50  0001 C CNN
+F 3 "" H 8385 2885 50  0001 C CNN
+	1    8385 2885
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR01
+U 1 1 59384265
+P 3800 4500
+F 0 "#PWR01" H 3800 4250 50  0001 C CNN
+F 1 "GNDA" H 3800 4350 50  0000 C CNN
+F 2 "" H 3800 4500 50  0000 C CNN
+F 3 "" H 3800 4500 50  0000 C CNN
+	1    3800 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR02
+U 1 1 593842A7
+P 5900 4000
+F 0 "#PWR02" H 5900 3750 50  0001 C CNN
+F 1 "GNDA" H 5900 3850 50  0000 C CNN
+F 2 "" H 5900 4000 50  0000 C CNN
+F 3 "" H 5900 4000 50  0000 C CNN
+	1    5900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C3
+U 1 1 59384516
+P 7405 2635
+F 0 "C3" H 7430 2735 50  0000 L CNN
+F 1 "47u" H 7430 2535 50  0000 L CNN
+F 2 "TristanValves:CP_Radial_D18.0mm_P7.50mm" H 7443 2485 50  0001 C CNN
+F 3 "" H 7405 2635 50  0001 C CNN
+F 4 "Nichicon" H 2255 385 50  0001 C CNN "MFR"
+F 5 "UCA2W220MHD6" H 2255 385 50  0001 C CNN "MPN"
+F 6 "647-UCA2W220MHD6" H 2255 385 50  0001 C CNN "SPN"
+	1    7405 2635
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR03
+U 1 1 593845E2
+P 7405 2835
+F 0 "#PWR03" H 7405 2585 50  0001 C CNN
+F 1 "GNDA" H 7405 2685 50  0000 C CNN
+F 2 "" H 7405 2835 50  0000 C CNN
+F 3 "" H 7405 2835 50  0000 C CNN
+	1    7405 2835
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x01 J4
+U 1 1 593EEB23
+P 6070 4675
+F 0 "J4" H 6070 4825 50  0000 C TNN
+F 1 "Screw_Terminal_1x01" V 5920 4675 50  0000 C TNN
+F 2 "TristanValves:MountingHole_3.2mm_M3_Pad" H 6070 4550 50  0001 C CNN
+F 3 "" H 6070 4575 50  0001 C CNN
+F 4 "" H -2980 -175 50  0001 C CNN "MFR"
+F 5 "" H -2980 -175 50  0001 C CNN "MPN"
+F 6 "" H -2980 -175 50  0001 C CNN "SPR"
+F 7 "" H -2980 -175 50  0001 C CNN "SPN"
+F 8 "" H -2980 -175 50  0001 C CNN "SPURL"
+	1    6070 4675
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 593EEB29
+P 6070 5025
+F 0 "#PWR04" H 6070 4775 50  0001 C CNN
+F 1 "GND" H 6070 4875 50  0000 C CNN
+F 2 "" H 6070 5025 50  0000 C CNN
+F 3 "" H 6070 5025 50  0000 C CNN
+	1    6070 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x02 J1
+U 1 1 593FE721
+P 2595 3100
+F 0 "J1" H 2595 3350 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 2445 3100 50  0000 C TNN
+F 2 "TristanValves:PhoenixContact_MCV-G_02x5.08mm_Vertical" H 2595 2875 50  0001 C CNN
+F 3 "" H 2570 3100 50  0001 C CNN
+F 4 "" H -205 0   50  0001 C CNN "MFR"
+F 5 "" H -205 0   50  0001 C CNN "MPN"
+F 6 "" H -205 0   50  0001 C CNN "SPR"
+F 7 "651-1729128" H -205 0   50  0001 C CNN "SPN"
+F 8 "" H -205 0   50  0001 C CNN "SPURL"
+	1    2595 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP4
+U 1 1 594029EC
+P 6600 3500
+F 0 "TP4" H 6600 3800 50  0000 C BNN
+F 1 "TEST" H 6600 3750 50  0000 C CNN
+F 2 "TristanValves:Test_Point_Keystone_5005-5009_Compact" H 6600 3500 50  0001 C CNN
+F 3 "" H 6600 3500 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MFR"
+F 5 "" H 0   0   50  0001 C CNN "MPN"
+F 6 "" H 0   0   50  0001 C CNN "SPR"
+F 7 "534-5006" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    6600 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP3
+U 1 1 59402AB9
+P 6120 4925
+F 0 "TP3" H 6120 5225 50  0000 C BNN
+F 1 "TEST" H 6120 5175 50  0000 C CNN
+F 2 "TristanValves:Test_Point_Keystone_5005-5009_Compact" H 6120 4925 50  0001 C CNN
+F 3 "" H 6120 4925 50  0001 C CNN
+F 4 "" H -2980 -175 50  0001 C CNN "MFR"
+F 5 "" H -2980 -175 50  0001 C CNN "MPN"
+F 6 "" H -2980 -175 50  0001 C CNN "SPR"
+F 7 "534-5006" H -2980 -175 50  0001 C CNN "SPN"
+F 8 "" H -2980 -175 50  0001 C CNN "SPURL"
+	1    6120 4925
+	0    1    1    0   
+$EndComp
+Text Notes 7050 4500 0    60   ~ 0
+16VDC in for PCL82 from\nMerlin Regulated PS
+Text Notes 5920 4475 0    60   ~ 0
+Chassis
+Text Notes 6570 5025 0    60   ~ 0
+TP\nGND
+$Comp
+L ECL82 U1
+U 1 1 5A2D6057
+P 3900 3000
+F 0 "U1" H 4050 3300 50  0000 C CNN
+F 1 "PCL82" H 4150 2700 50  0000 C CNN
+F 2 "TristanValves:VALVE-ECC-83-1-TC" H 3900 3150 50  0001 C CNN
+F 3 "" H 3900 3000 50  0001 C CNN
+	1    3900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ECL82 U1
+U 3 1 5A2D61A7
+P 8900 3775
+F 0 "U1" H 9050 4075 50  0000 C CNN
+F 1 "PCL82" H 9150 3475 50  0000 C CNN
+F 2 "TristanValves:VALVE-ECC-83-1-TC" H 8900 3925 50  0001 C CNN
+F 3 "" H 8900 3775 50  0001 C CNN
+	3    8900 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5A2DD09C
+P 2795 3200
+F 0 "#PWR05" H 2795 2950 50  0001 C CNN
+F 1 "GND" H 2795 3050 50  0000 C CNN
+F 2 "" H 2795 3200 50  0000 C CNN
+F 3 "" H 2795 3200 50  0000 C CNN
+	1    2795 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5A2DD5CE
+P 3100 3350
+F 0 "R4" V 3180 3350 50  0000 C CNN
+F 1 "1Meg" V 3100 3350 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3030 3350 50  0001 C CNN
+F 3 "" H 3100 3350 50  0001 C CNN
+	1    3100 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDA #PWR06
+U 1 1 5A2DD673
+P 3100 4000
+F 0 "#PWR06" H 3100 3750 50  0001 C CNN
+F 1 "GNDA" H 3100 3850 50  0000 C CNN
+F 2 "" H 3100 4000 50  0000 C CNN
+F 3 "" H 3100 4000 50  0000 C CNN
+	1    3100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 5A2E7D88
+P 4915 3370
+F 0 "R8" V 4995 3370 50  0000 C CNN
+F 1 "470k" V 4915 3370 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4845 3370 50  0001 C CNN
+F 3 "" H 4915 3370 50  0001 C CNN
+	1    4915 3370
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDA #PWR07
+U 1 1 5A2E9001
+P 4915 4000
+F 0 "#PWR07" H 4915 3750 50  0001 C CNN
+F 1 "GNDA" H 4915 3850 50  0000 C CNN
+F 2 "" H 4915 4000 50  0000 C CNN
+F 3 "" H 4915 4000 50  0000 C CNN
+	1    4915 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4500 4100 2    60   Input ~ 0
+GNFB
+Text GLabel 8215 3190 3    60   Input ~ 0
+GNFB
+$Comp
+L Screw_Terminal_1x02 J5
+U 1 1 5A2F703B
+P 6100 1870
+F 0 "J5" H 6100 2120 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 5950 1870 50  0000 C TNN
+F 2 "TristanValves:PhoenixContact_MCV-G_02x5.08mm_Vertical" H 6100 1645 50  0001 C CNN
+F 3 "" H 6075 1870 50  0001 C CNN
+F 4 "" H -800 -230 50  0001 C CNN "MFR"
+F 5 "" H -800 -230 50  0001 C CNN "MPN"
+F 6 "" H -800 -230 50  0001 C CNN "SPR"
+F 7 "651-1729128" H -800 -230 50  0001 C CNN "SPN"
+F 8 "" H -800 -230 50  0001 C CNN "SPURL"
+	1    6100 1870
+	0    -1   1    0   
+$EndComp
+Text Notes 8665 2160 0    60   ~ 0
+HT in from Merlin Regulated PS
+Text Notes 8660 2570 0    60   ~ 0
+NFB from +ve speaker terminal
+Text Notes 5840 1670 0    60   ~ 0
+To/From OT
+$Comp
+L R R13
+U 1 1 5A2F9A4A
+P 8095 2890
+F 0 "R13" V 8175 2890 50  0000 C CNN
+F 1 "?" V 8095 2890 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8025 2890 50  0001 C CNN
+F 3 "" H 8095 2890 50  0001 C CNN
+	1    8095 2890
+	-1   0    0    1   
+$EndComp
+Text GLabel 7215 1280 1    60   Input ~ 0
+A
+Text GLabel 3900 1865 1    60   Input ~ 0
+A
+$Comp
+L TEST TP2
+U 1 1 5A301BB6
+P 3900 2500
+F 0 "TP2" H 3900 2800 50  0000 C BNN
+F 1 "TEST" H 3900 2750 50  0000 C CNN
+F 2 "TristanValves:Test_Point_Keystone_5005-5009_Compact" H 3900 2500 50  0001 C CNN
+F 3 "" H 3900 2500 50  0001 C CNN
+F 4 "" H -500 -1000 50  0001 C CNN "MFR"
+F 5 "" H -500 -1000 50  0001 C CNN "MPN"
+F 6 "" H -500 -1000 50  0001 C CNN "SPR"
+F 7 "534-5006" H -500 -1000 50  0001 C CNN "SPN"
+F 8 "" H -500 -1000 50  0001 C CNN "SPURL"
+	1    3900 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J6
+U 1 1 5A30DBA9
+P 8440 2335
+F 0 "J6" H 8440 2685 50  0000 C TNN
+F 1 "Screw_Terminal_1x03" V 8290 2335 50  0000 C TNN
+F 2 "Connectors_Phoenix:PhoenixContact_MCV-G_03x5.08mm_Vertical" H 8440 2010 50  0001 C CNN
+F 3 "" H 8415 2435 50  0001 C CNN
+	1    8440 2335
+	-1   0    0    1   
+$EndComp
+Text Notes 8655 2365 0    60   ~ 0
+COM from Merlin Regulated PS
+$Comp
+L GNDA #PWR08
+U 1 1 5A30EDFE
+P 7740 2840
+F 0 "#PWR08" H 7740 2590 50  0001 C CNN
+F 1 "GNDA" H 7740 2690 50  0000 C CNN
+F 2 "" H 7740 2840 50  0000 C CNN
+F 3 "" H 7740 2840 50  0000 C CNN
+	1    7740 2840
+	1    0    0    -1  
+$EndComp
+$Comp
+L ECL82 U1
+U 2 1 5A2D60D8
+P 6000 3000
+F 0 "U1" H 6150 3300 50  0000 C CNN
+F 1 "PCL82" H 6250 2700 50  0000 C CNN
+F 2 "TristanValves:VALVE-ECC-83-1-TC" H 6000 3150 50  0001 C CNN
+F 3 "" H 6000 3000 50  0001 C CNN
+	2    6000 3000
+	1    0    0    -1  
+$EndComp
+Text Notes 3450 3250 0    60   ~ 0
+~~1.5V
+Text Notes 6300 2100 0    60   ~ 0
+~~255V
+Text Notes 5550 3350 0    60   ~ 0
+~~25V
+$Comp
+L GND #PWR09
+U 1 1 5A319201
+P 4530 4935
+F 0 "#PWR09" H 4530 4685 50  0001 C CNN
+F 1 "GND" H 4530 4785 50  0000 C CNN
+F 2 "" H 4530 4935 50  0000 C CNN
+F 3 "" H 4530 4935 50  0000 C CNN
+	1    4530 4935
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR010
+U 1 1 5A319278
+P 5270 4930
+F 0 "#PWR010" H 5270 4680 50  0001 C CNN
+F 1 "GNDA" H 5270 4780 50  0000 C CNN
+F 2 "" H 5270 4930 50  0000 C CNN
+F 3 "" H 5270 4930 50  0000 C CNN
+	1    5270 4930
+	1    0    0    -1  
+$EndComp
+Text Notes 4615 4675 0    60   ~ 0
+To do near input
+$Comp
+L Jumper_NO_Small JP1
+U 1 1 5A3258DF
+P 4890 4805
+F 0 "JP1" H 4890 4885 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4900 4745 50  0000 C CNN
+F 2 "TristanValves:WireConnection_1.00mmDrill_TC" H 4890 4805 50  0001 C CNN
+F 3 "" H 4890 4805 50  0001 C CNN
+	1    4890 4805
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5A480D88
+P 3900 2185
+F 0 "R1" V 3980 2185 50  0000 C CNN
+F 1 "100k" V 3900 2185 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3830 2185 50  0001 C CNN
+F 3 "" H 3900 2185 50  0001 C CNN
+	1    3900 2185
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C6
+U 1 1 5A488535
+P 7000 1565
+F 0 "C6" H 7025 1665 50  0000 L CNN
+F 1 "47u" H 7025 1465 50  0000 L CNN
+F 2 "TristanValves:CP_Radial_D18.0mm_P7.50mm" H 7038 1415 50  0001 C CNN
+F 3 "" H 7000 1565 50  0001 C CNN
+F 4 "Nichicon" H 1850 -685 50  0001 C CNN "MFR"
+F 5 "UCA2W220MHD6" H 1850 -685 50  0001 C CNN "MPN"
+F 6 "647-UCA2W220MHD6" H 1850 -685 50  0001 C CNN "SPN"
+	1    7000 1565
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR011
+U 1 1 5A4887F2
+P 7000 1760
+F 0 "#PWR011" H 7000 1510 50  0001 C CNN
+F 1 "GNDA" H 7000 1610 50  0000 C CNN
+F 2 "" H 7000 1760 50  0000 C CNN
+F 3 "" H 7000 1760 50  0000 C CNN
+	1    7000 1760
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP5
+U 1 1 5A303C0E
+P 7405 2290
+F 0 "TP5" H 7405 2590 50  0000 C BNN
+F 1 "TEST" H 7405 2540 50  0000 C CNN
+F 2 "TristanValves:Test_Point_Keystone_5005-5009_Compact" H 7405 2290 50  0001 C CNN
+F 3 "" H 7405 2290 50  0001 C CNN
+F 4 "" H 805 -1210 50  0001 C CNN "MFR"
+F 5 "" H 805 -1210 50  0001 C CNN "MPN"
+F 6 "" H 805 -1210 50  0001 C CNN "SPR"
+F 7 "534-5006" H 805 -1210 50  0001 C CNN "SPN"
+F 8 "" H 805 -1210 50  0001 C CNN "SPURL"
+	1    7405 2290
+	0    -1   -1   0   
+$EndComp
+Text Notes 8145 2010 0    60   ~ 0
+260V
+Text Notes 6945 1370 0    60   ~ 0
+270V
+Text Notes 8535 2950 0    60   ~ 0
+Values determined on test / DNP
+Text GLabel 8110 1805 1    60   Input ~ 0
+P
+Text GLabel 7640 1805 1    60   Input ~ 0
+S
+Text GLabel 8795 1165 2    60   Input ~ 0
+P
+Text GLabel 8800 1415 2    60   Input ~ 0
+S
+$Comp
+L R R2
+U 1 1 5A48842A
+P 8380 1415
+F 0 "R2" V 8460 1415 50  0000 C CNN
+F 1 "4.7k" V 8380 1415 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 8310 1415 50  0001 C CNN
+F 3 "" H 8380 1415 50  0001 C CNN
+	1    8380 1415
+	0    -1   -1   0   
+$EndComp
+Text Notes 7915 1020 0    60   ~ 0
+Choose placement for\ndiffering PS config
+$Comp
+L CP C7
+U 1 1 5A48F907
+P 6830 2915
+F 0 "C7" H 6855 3015 50  0000 L CNN
+F 1 "47u" H 6855 2815 50  0000 L CNN
+F 2 "TristanValves:CP_Radial_D18.0mm_P7.50mm" H 6868 2765 50  0001 C CNN
+F 3 "" H 6830 2915 50  0001 C CNN
+F 4 "Nichicon" H 1680 665 50  0001 C CNN "MFR"
+F 5 "UCA2W220MHD6" H 1680 665 50  0001 C CNN "MPN"
+F 6 "647-UCA2W220MHD6" H 1680 665 50  0001 C CNN "SPN"
+	1    6830 2915
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR012
+U 1 1 5A48F90D
+P 6830 3115
+F 0 "#PWR012" H 6830 2865 50  0001 C CNN
+F 1 "GNDA" H 6830 2965 50  0000 C CNN
+F 2 "" H 6830 3115 50  0000 C CNN
+F 3 "" H 6830 3115 50  0000 C CNN
+	1    6830 3115
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 5A48FA0D
+P 6830 2395
+F 0 "R14" V 6910 2395 50  0000 C CNN
+F 1 "2.2k" V 6830 2395 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6760 2395 50  0001 C CNN
+F 3 "" H 6830 2395 50  0001 C CNN
+	1    6830 2395
+	1    0    0    -1  
+$EndComp
+Text Notes 6330 2435 0    60   ~ 0
+Jumper\nfor triode
+Text Notes 7070 3225 1    60   ~ 0
+DNP for triode
+$Comp
+L R R3
+U 1 1 5A494AEB
+P 5645 2500
+F 0 "R3" V 5725 2500 50  0000 C CNN
+F 1 "?" V 5645 2500 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5575 2500 50  0001 C CNN
+F 3 "" H 5645 2500 50  0001 C CNN
+	1    5645 2500
+	0    1    1    0   
+$EndComp
+Text Notes 5095 2420 0    60   ~ 0
+Optional shunt FB
+$Comp
+L R R6
+U 1 1 5A931E2D
+P 8385 1165
+F 0 "R6" V 8465 1165 50  0000 C CNN
+F 1 "4.7k" V 8385 1165 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 8315 1165 50  0001 C CNN
+F 3 "" H 8385 1165 50  0001 C CNN
+	1    8385 1165
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Screw_Terminal_1x02 J2
+U 1 1 5A9A9D43
+P 8400 4400
+F 0 "J2" H 8400 4650 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 8250 4400 50  0000 C TNN
+F 2 "TristanValves:PhoenixContact_MCV-G_02x5.08mm_Vertical" H 8400 4175 50  0001 C CNN
+F 3 "" H 8375 4400 50  0001 C CNN
+	1    8400 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3000 3600 3000
+Wire Wire Line
+	7405 2785 7405 2835
+Wire Wire Line
+	5900 3500 6600 3500
+Wire Wire Line
+	5900 3850 6200 3850
+Wire Wire Line
+	6200 3500 6200 3550
+Wire Wire Line
+	5900 3850 5900 4000
+Wire Wire Line
+	6070 4875 6070 5025
+Wire Wire Line
+	6120 4925 6070 4925
+Wire Wire Line
+	5900 3400 5900 3550
+Connection ~ 5900 3500
+Connection ~ 5900 3850
+Connection ~ 6070 4925
+Wire Wire Line
+	3900 2335 3900 2600
+Wire Wire Line
+	3900 2500 5495 2500
+Connection ~ 3900 2500
+Wire Wire Line
+	3100 4000 3100 3500
+Wire Wire Line
+	2795 3000 3200 3000
+Wire Wire Line
+	3100 3200 3100 3000
+Connection ~ 3100 3000
+Wire Wire Line
+	5600 3100 5700 3100
+Wire Wire Line
+	4915 3520 4915 4000
+Connection ~ 6200 3500
+Wire Wire Line
+	6435 2915 6435 3000
+Wire Wire Line
+	6435 3000 6300 3000
+Wire Wire Line
+	7975 2135 8240 2135
+Wire Wire Line
+	6200 2135 6200 2070
+Wire Wire Line
+	6000 2070 6000 2600
+Wire Wire Line
+	7740 2840 7740 2335
+Wire Wire Line
+	7740 2335 8240 2335
+Wire Wire Line
+	6200 2135 7675 2135
+Wire Wire Line
+	8095 2740 8385 2740
+Wire Wire Line
+	8385 2740 8385 2735
+Wire Wire Line
+	8240 2535 8240 2740
+Connection ~ 8240 2740
+Wire Wire Line
+	8215 3035 8215 3190
+Wire Wire Line
+	8215 3040 8095 3040
+Wire Wire Line
+	8385 3035 8215 3035
+Connection ~ 8215 3040
+Wire Wire Line
+	4530 4935 4530 4805
+Wire Wire Line
+	4530 4805 4790 4805
+Wire Wire Line
+	4990 4805 5270 4805
+Wire Wire Line
+	5270 4805 5270 4930
+Wire Notes Line
+	4445 4575 4445 5150
+Wire Notes Line
+	4445 5150 5395 5150
+Wire Notes Line
+	5395 5150 5395 4575
+Wire Notes Line
+	5395 4575 4445 4575
+Wire Wire Line
+	3800 3400 3800 3650
+Connection ~ 3800 3500
+Wire Wire Line
+	7215 1280 7215 1415
+Connection ~ 7215 1415
+Wire Wire Line
+	7405 2135 7405 2485
+Connection ~ 7405 2135
+Connection ~ 7405 2290
+Wire Wire Line
+	7000 1415 8230 1415
+Wire Wire Line
+	7000 1715 7000 1760
+Wire Wire Line
+	7640 1805 7640 2135
+Connection ~ 7640 2135
+Wire Wire Line
+	8110 1805 8110 2135
+Connection ~ 8110 2135
+Wire Wire Line
+	8795 1165 8535 1165
+Wire Wire Line
+	8800 1415 8530 1415
+Wire Wire Line
+	6830 3065 6830 3115
+Wire Wire Line
+	6830 2245 6830 2135
+Connection ~ 6830 2135
+Wire Wire Line
+	6830 2575 6435 2575
+Wire Wire Line
+	6435 2575 6435 2615
+Wire Wire Line
+	6830 2545 6830 2765
+Connection ~ 6830 2575
+Wire Wire Line
+	4915 2500 4915 2655
+Wire Wire Line
+	5300 3100 4915 3100
+Connection ~ 4915 3100
+Wire Wire Line
+	4915 2955 4915 3220
+Connection ~ 4915 2500
+Wire Wire Line
+	5795 2500 6000 2500
+Connection ~ 6000 2500
+Wire Wire Line
+	3900 1865 3900 2035
+Wire Wire Line
+	8235 1165 8000 1165
+Wire Wire Line
+	8000 1165 8000 1415
+Connection ~ 8000 1415
+Wire Wire Line
+	8600 4300 8800 4300
+Wire Wire Line
+	8800 4300 8800 4200
+Wire Wire Line
+	9000 4200 9000 4500
+Wire Wire Line
+	9000 4500 8600 4500
+$Comp
+L TEST TP1
+U 1 1 5A9AA6B0
+P 3750 3500
+F 0 "TP1" H 3750 3800 50  0000 C BNN
+F 1 "TEST" H 3750 3750 50  0000 C CNN
+F 2 "TristanValves:Test_Point_Keystone_5005-5009_Compact" H 3750 3500 50  0001 C CNN
+F 3 "" H 3750 3500 50  0001 C CNN
+	1    3750 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 3500 4450 3500
+$Comp
+L R R7
+U 1 1 5A9AAFEE
+P 3800 4250
+F 0 "R7" V 3880 4250 50  0000 C CNN
+F 1 "?" V 3800 4250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3730 4250 50  0001 C CNN
+F 3 "" H 3800 4250 50  0001 C CNN
+	1    3800 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 4500 3800 4400
+Wire Wire Line
+	3800 4100 4500 4100
+Wire Wire Line
+	3800 3950 3800 4100
+$Comp
+L POT_TRIM RV1
+U 1 1 5A9AC07E
+P 3800 3800
+F 0 "RV1" V 3625 3800 50  0000 C CNN
+F 1 "10k" V 3700 3800 50  0000 C CNN
+F 2 "TristanValves:Potentiometer_Trimmer_Bourns_3339P_Horizontal" H 3800 3800 50  0001 C CNN
+F 3 "" H 3800 3800 50  0001 C CNN
+	1    3800 3800
+	1    0    0    1   
+$EndComp
+$Comp
+L CP C5
+U 1 1 5A9AC122
+P 4150 3800
+F 0 "C5" H 4175 3900 50  0000 L CNN
+F 1 "47u" H 4175 3700 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm_P7.50mm" H 4188 3650 50  0001 C CNN
+F 3 "" H 4150 3800 50  0001 C CNN
+	1    4150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3500 4150 3650
+Wire Wire Line
+	4150 4100 4150 3950
+Connection ~ 4150 4100
+Wire Wire Line
+	3950 3800 3950 4100
+Connection ~ 3950 4100
+Text Notes 3900 4450 0    60   ~ 0
+Jumper or use\nwith GNFB
+$Comp
+L LED D1
+U 1 1 5A9AC1B8
+P 4450 3750
+F 0 "D1" H 4450 3850 50  0000 C CNN
+F 1 "LED" H 4450 3650 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 4450 3750 50  0001 C CNN
+F 3 "" H 4450 3750 50  0001 C CNN
+	1    4450 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 3500 4450 3600
+Connection ~ 4150 3500
+Wire Wire Line
+	4450 4100 4450 3900
+Connection ~ 4450 4100
+Text Notes 3850 3450 0    60   ~ 0
+Trim pot or LED bias
+Text Notes 3950 2000 0    60   ~ 0
+~~255V
+Text Notes 3450 2750 0    60   ~ 0
+~~130V
+Text Notes 5550 2750 0    60   ~ 0
+~~250V
+$EndSCHEMATC

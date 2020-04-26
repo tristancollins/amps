@@ -1,0 +1,44 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 5C1FBBDD
+P 6350 2625
+F 0 "J2" H 6377 2651 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 6377 2560 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6350 2625 50  0001 C CNN
+F 3 "~" H 6350 2625 50  0001 C CNN
+	1    6350 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5C1FBCBE
+P 5725 2625
+F 0 "J1" H 5831 2903 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 5831 2812 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5725 2625 50  0001 C CNN
+F 3 "~" H 5725 2625 50  0001 C CNN
+	1    5725 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5925 2525 6150 2525
+Wire Wire Line
+	6150 2625 5925 2625
+Wire Wire Line
+	5925 2725 6150 2725
+$EndSCHEMATC

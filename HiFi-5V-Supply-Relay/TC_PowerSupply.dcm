@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRM-05-3.3
+D 3.3V 2W miniature AC-DC module-type power supply MeanWell
+K 3.3V 2W miniature AC-DC module-type power supply
+F http://www.meanwell.com/productPdf.aspx?i=675
+$ENDCMP
+#
+#End Doc Library
