@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name SSFXPCB-rescue)(type Legacy)(uri ${KIPRJMOD}/SSFXPCB-rescue.lib)(options "")(descr ""))
-  (lib (name 74xx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/74xx.lib)(options "")(descr ""))
-  (lib (name EFX-BTDR-2H-L)(type Legacy)(uri ${KIPRJMOD}/KiCad/EFX-BTDR-2H-L.lib)(options "")(descr ""))
-  (lib (name TCcustom_sym)(type Legacy)(uri /Users/Tristan/Dropbox/Amps/Mutineer/SolidStateFX/TCcustom_sym.lib)(options "")(descr ""))
-)
