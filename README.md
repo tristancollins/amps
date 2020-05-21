@@ -7,6 +7,8 @@ My amp pcbs
 - Guitar Bone Ray Tone Stack
 - Guitar Solid State effects loop
 - Guitar Solid State Reverb
+- Guitar Input PCB - UNTESTED - for my specific builds
+- Guitar Cathodyne Phase Inverter - UNTESTED
 
 In action: https://www.tristancollins.me/ax84/Mutineer/Built/IMG_0032.jpg
 https://www.tristancollins.me/ax84/Mutineer/Built/IMG_0031.jpg
