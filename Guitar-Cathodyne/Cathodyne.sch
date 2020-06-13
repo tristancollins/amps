@@ -18,21 +18,10 @@ L Device:R R1
 U 1 1 5EBE9496
 P 3800 3625
 F 0 "R1" H 3870 3671 50  0000 L CNN
-F 1 "1Meg" H 3870 3580 50  0000 L CNN
+F 1 "470k" H 3870 3580 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3730 3625 50  0001 C CNN
 F 3 "~" H 3800 3625 50  0001 C CNN
 	1    3800 3625
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5EBEA8D5
-P 4625 3625
-F 0 "R4" H 4695 3671 50  0000 L CNN
-F 1 "1.5k" H 4695 3580 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4555 3625 50  0001 C CNN
-F 3 "~" H 4625 3625 50  0001 C CNN
-	1    4625 3625
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -40,7 +29,7 @@ L Device:R R5
 U 1 1 5EBEB2E4
 P 4625 4075
 F 0 "R5" H 4695 4121 50  0000 L CNN
-F 1 "47k" H 4695 4030 50  0000 L CNN
+F 1 "68k" H 4695 4030 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4555 4075 50  0001 C CNN
 F 3 "~" H 4625 4075 50  0001 C CNN
 	1    4625 4075
@@ -51,7 +40,7 @@ L Device:R R3
 U 1 1 5EBEB7C1
 P 4625 2500
 F 0 "R3" H 4695 2546 50  0000 L CNN
-F 1 "47k" H 4695 2455 50  0000 L CNN
+F 1 "68k" H 4695 2455 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4555 2500 50  0001 C CNN
 F 3 "~" H 4625 2500 50  0001 C CNN
 	1    4625 2500
@@ -151,15 +140,7 @@ Connection ~ 4625 2950
 Wire Wire Line
 	4625 2950 4625 2650
 Wire Wire Line
-	4625 3400 4625 3450
-Wire Wire Line
-	3800 3775 3800 3825
-Wire Wire Line
-	3800 3825 4175 3825
-Wire Wire Line
 	4625 3825 4625 3925
-Wire Wire Line
-	4625 3775 4625 3825
 Connection ~ 4625 3825
 Wire Wire Line
 	5000 3825 4625 3825
@@ -196,7 +177,7 @@ F 3 "" H 5675 3375 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4625 4225 4625 4300
+	4625 4225 4625 4275
 Wire Wire Line
 	5675 3375 5625 3375
 Connection ~ 5625 3375
@@ -411,57 +392,6 @@ F 3 "~" H 4625 1825 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 4625 2025
-$Comp
-L Device:CP C5
-U 1 1 5EC4FF84
-P 4175 3625
-F 0 "C5" H 4293 3671 50  0000 L CNN
-F 1 "1u 63V" H 4293 3580 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4213 3475 50  0001 C CNN
-F 3 "~" H 4175 3625 50  0001 C CNN
-	1    4175 3625
-	1    0    0    -1  
-$EndComp
-Connection ~ 4625 3450
-Wire Wire Line
-	4625 3450 4625 3475
-$Comp
-L Connector:Screw_Terminal_01x01 J7
-U 1 1 5EC53B67
-P 3800 2100
-F 0 "J7" V 3672 2180 50  0000 L CNN
-F 1 "Screw_Terminal_01x01" V 3763 2180 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 3800 2100 50  0001 C CNN
-F 3 "~" H 3800 2100 50  0001 C CNN
-	1    3800 2100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 5EC547BB
-P 3800 2500
-F 0 "C6" V 3548 2500 50  0000 C CNN
-F 1 "22n 63V" V 3639 2500 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 3838 2350 50  0001 C CNN
-F 3 "~" H 3800 2500 50  0001 C CNN
-	1    3800 2500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 5EC55F8B
-P 3800 2825
-F 0 "R9" V 3593 2825 50  0000 C CNN
-F 1 "1Meg" V 3684 2825 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3730 2825 50  0001 C CNN
-F 3 "~" H 3800 2825 50  0001 C CNN
-	1    3800 2825
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3800 2300 3800 2350
-Wire Wire Line
-	3800 2650 3800 2675
 Wire Wire Line
 	3800 2975 3800 3200
 $Comp
@@ -497,36 +427,35 @@ F 3 "~" H 2625 5125 50  0001 C CNN
 	1    2625 5125
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x01 J8
-U 1 1 5EC74177
-P 2400 5350
-F 0 "J8" V 2272 5430 50  0000 L CNN
-F 1 "Screw_Terminal_01x01" V 2363 5430 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 2400 5350 50  0001 C CNN
-F 3 "~" H 2400 5350 50  0001 C CNN
-	1    2400 5350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2850 4700 2625 4700
-Wire Wire Line
-	2400 5150 2400 4700
-Connection ~ 2400 4700
-Wire Wire Line
-	2400 4700 2300 4700
 Wire Wire Line
 	2625 4925 2625 4700
 Connection ~ 2625 4700
 Wire Wire Line
-	2625 4700 2400 4700
+	4625 3400 4625 3825
 Wire Wire Line
-	4175 3450 4175 3475
+	4625 2025 3800 2025
 Wire Wire Line
-	4175 3450 4625 3450
+	3800 2025 3800 2675
 Wire Wire Line
-	4175 3775 4175 3825
-Connection ~ 4175 3825
+	3800 4275 4625 4275
 Wire Wire Line
-	4175 3825 4625 3825
+	3800 3775 3800 4275
+Connection ~ 4625 4275
+Wire Wire Line
+	4625 4275 4625 4300
+Wire Wire Line
+	2300 4700 2625 4700
+$Comp
+L Device:R R9
+U 1 1 5EC55F8B
+P 3800 2825
+F 0 "R9" V 3593 2825 50  0000 C CNN
+F 1 "1.5Meg" V 3684 2825 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3730 2825 50  0001 C CNN
+F 3 "~" H 3800 2825 50  0001 C CNN
+	1    3800 2825
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
