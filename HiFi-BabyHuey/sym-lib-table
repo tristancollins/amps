@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name BabyHueyTC)(type Legacy)(uri "/Users/Tristan/Dropbox/Amps/HiFi/BabyHuey/Baby Huey/BabyHueyTC.lib")(options "")(descr ""))
+  (lib (name Baby-Huey-rescue)(type Legacy)(uri "${KIPRJMOD}/Baby Huey-rescue.lib")(options "")(descr ""))
+)
