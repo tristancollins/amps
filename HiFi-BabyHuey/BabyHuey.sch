@@ -164,7 +164,7 @@ Text Notes 6950 1475 0    50   ~ 0
 Left Output Transformer\nPrimary Windings\nPWPP30W6K6\n6.6k Raa 30W
 Wire Wire Line
 	6775 1875 7100 1875
-Text Label 7100 1875 2    50   ~ 0
+Text Label 6975 2350 0    50   ~ 0
 B+
 Wire Wire Line
 	5675 2400 5975 2400
@@ -244,13 +244,9 @@ Text Label 3275 2150 0    50   ~ 0
 V_Bias
 Text Label 3275 2275 0    50   ~ 0
 V_Driver
-Wire Wire Line
-	6775 2450 6975 2450
-Wire Wire Line
-	6775 2550 6975 2550
-Text Label 6975 2450 0    50   ~ 0
+Text Label 6975 2500 0    50   ~ 0
 V_Bias
-Text Label 6975 2550 0    50   ~ 0
+Text Label 6975 2600 0    50   ~ 0
 V_Driver
 Text Label 3275 2025 0    50   ~ 0
 B+
@@ -429,7 +425,7 @@ Wire Wire Line
 Connection ~ 5925 7100
 Connection ~ 5925 6700
 Text Notes 8625 925  0    39   ~ 0
-• Which HV tap?\n•• If 330Vac then change caps to 500V
+• Which HV tap?\n•• If 330Vac then change caps to 500V\n• Fix B+ connections wrt to the smoothing cap
 Wire Notes Line
 	8525 550  8525 2000
 Wire Notes Line
@@ -454,9 +450,10 @@ F5 "ULB" I R 6775 1775 50
 F6 "Input" I L 5975 1825 50 
 F7 "B+" I R 6775 1875 50 
 F8 "GNFB" I L 5975 2400 50 
-F9 "V_Bias" I R 6775 2450 50 
-F10 "V_Driver" I R 6775 2550 50 
+F9 "V_Bias" I R 6775 2500 50 
+F10 "V_Driver" I R 6775 2600 50 
 F11 "OT_Common" I R 6775 2175 50 
+F12 "Bplusin" I R 6775 2350 50 
 $EndSheet
 $Comp
 L Connector:Screw_Terminal_01x02 J106
@@ -586,7 +583,7 @@ Text Notes 6950 3475 0    50   ~ 0
 Right Output Transformer\nPrimary Windings\nPWPP30W6K6\n6.6k Raa 30W
 Wire Wire Line
 	6775 3875 7100 3875
-Text Label 7100 3875 2    50   ~ 0
+Text Label 6975 4350 0    50   ~ 0
 B+
 Wire Wire Line
 	5675 4400 5975 4400
@@ -601,13 +598,9 @@ F 3 "" H 5675 4500 50  0001 C CNN
 	1    5675 4500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6775 4450 6975 4450
-Wire Wire Line
-	6775 4550 6975 4550
-Text Label 6975 4450 0    50   ~ 0
+Text Label 6975 4500 0    50   ~ 0
 V_Bias
-Text Label 6975 4550 0    50   ~ 0
+Text Label 6975 4600 0    50   ~ 0
 V_Driver
 Wire Wire Line
 	7100 4175 6775 4175
@@ -623,9 +616,10 @@ F5 "ULB" I R 6775 3775 50
 F6 "Input" I L 5975 3825 50 
 F7 "B+" I R 6775 3875 50 
 F8 "GNFB" I L 5975 4400 50 
-F9 "V_Bias" I R 6775 4450 50 
-F10 "V_Driver" I R 6775 4550 50 
+F9 "V_Bias" I R 6775 4500 50 
+F10 "V_Driver" I R 6775 4600 50 
 F11 "OT_Common" I R 6775 4175 50 
+F12 "Bplusin" I R 6775 4350 50 
 $EndSheet
 $Comp
 L Connector:Screw_Terminal_01x06 J113
@@ -662,4 +656,16 @@ F 3 "~" H 5475 4500 50  0001 C CNN
 $EndComp
 Text Notes 7450 4125 0    39   ~ 0
 *use 2x3 terminal blocks
+Wire Wire Line
+	6975 2600 6775 2600
+Wire Wire Line
+	6775 2500 6975 2500
+Wire Wire Line
+	6975 2350 6775 2350
+Wire Wire Line
+	6975 4500 6775 4500
+Wire Wire Line
+	6775 4600 6975 4600
+Wire Wire Line
+	6975 4350 6775 4350
 $EndSCHEMATC
