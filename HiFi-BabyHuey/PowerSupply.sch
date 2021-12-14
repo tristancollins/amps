@@ -36,9 +36,11 @@ F 3 "~" H 2775 4225 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Polarized C201
+L BabyHuey-rescue:C_Polarized-Device C201
 U 1 1 61155E86
 P 3225 3400
+AR Path="/61155E86" Ref="C201"  Part="1" 
+AR Path="/61151ECA/61155E86" Ref="C201"  Part="1" 
 F 0 "C201" H 3107 3354 50  0000 R CNN
 F 1 "470u 100V" H 3107 3445 50  0000 R CNN
 F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 3263 3250 50  0001 C CNN
@@ -47,9 +49,11 @@ F 3 "~" H 3225 3400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Polarized C202
+L BabyHuey-rescue:C_Polarized-Device C202
 U 1 1 61157148
 P 3225 3925
+AR Path="/61157148" Ref="C202"  Part="1" 
+AR Path="/61151ECA/61157148" Ref="C202"  Part="1" 
 F 0 "C202" H 3107 3879 50  0000 R CNN
 F 1 "470u 100V" H 3107 3970 50  0000 R CNN
 F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 3263 3775 50  0001 C CNN
@@ -105,23 +109,27 @@ F 3 "~" H 2775 5825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Polarized C203
+L BabyHuey-rescue:C_Polarized-Device C203
 U 1 1 6116D2DD
 P 3225 5175
+AR Path="/6116D2DD" Ref="C203"  Part="1" 
+AR Path="/61151ECA/6116D2DD" Ref="C203"  Part="1" 
 F 0 "C203" H 3343 5221 50  0000 L CNN
 F 1 "2200u 25V" H 3343 5130 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm" H 3263 5025 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 3263 5025 50  0001 C CNN
 F 3 "~" H 3225 5175 50  0001 C CNN
 	1    3225 5175
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Polarized C204
+L BabyHuey-rescue:C_Polarized-Device C204
 U 1 1 6116D2E3
 P 3225 5600
+AR Path="/6116D2E3" Ref="C204"  Part="1" 
+AR Path="/61151ECA/6116D2E3" Ref="C204"  Part="1" 
 F 0 "C204" H 3343 5646 50  0000 L CNN
 F 1 "2200u 25V" H 3343 5555 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm" H 3263 5450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 3263 5450 50  0001 C CNN
 F 3 "~" H 3225 5600 50  0001 C CNN
 	1    3225 5600
 	1    0    0    -1  
@@ -196,18 +204,20 @@ U 1 1 61196376
 P 5375 1500
 F 0 "D209" H 5375 1717 50  0000 C CNN
 F 1 "BZX79C10" H 5375 1626 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 5375 1325 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5375 1325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 5375 1500 50  0001 C CNN
 	1    5375 1500
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Polarized C208
+L BabyHuey-rescue:C_Polarized-Device C208
 U 1 1 6119637C
 P 5000 2075
+AR Path="/6119637C" Ref="C208"  Part="1" 
+AR Path="/61151ECA/6119637C" Ref="C208"  Part="1" 
 F 0 "C208" H 5118 2121 50  0000 L CNN
 F 1 "10u 450V" H 5118 2030 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 5038 1925 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm" H 5038 1925 50  0001 C CNN
 F 3 "~" H 5000 2075 50  0001 C CNN
 	1    5000 2075
 	1    0    0    -1  
@@ -248,9 +258,11 @@ $EndComp
 Wire Wire Line
 	3575 1200 3925 1200
 $Comp
-L Device:C_Polarized C205
+L BabyHuey-rescue:C_Polarized-Device C205
 U 1 1 611A5414
 P 3925 1775
+AR Path="/611A5414" Ref="C205"  Part="1" 
+AR Path="/61151ECA/611A5414" Ref="C205"  Part="1" 
 F 0 "C205" H 4043 1821 50  0000 L CNN
 F 1 "47u 450V" H 4043 1730 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 3963 1625 50  0001 C CNN
@@ -441,9 +453,11 @@ Wire Wire Line
 Wire Wire Line
 	5600 1200 5950 1200
 $Comp
-L Device:C_Polarized C210
+L BabyHuey-rescue:C_Polarized-Device C210
 U 1 1 607FA8E7
 P 5950 1750
+AR Path="/607FA8E7" Ref="C210"  Part="1" 
+AR Path="/61151ECA/607FA8E7" Ref="C210"  Part="1" 
 F 0 "C210" H 6068 1796 50  0000 L CNN
 F 1 "47u 450V" H 6068 1705 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 5988 1600 50  0001 C CNN
@@ -497,15 +511,17 @@ U 1 1 6082C858
 P 5375 3425
 F 0 "D210" H 5375 3642 50  0000 C CNN
 F 1 "BZX79C10" H 5375 3551 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 5375 3250 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5375 3250 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 5375 3425 50  0001 C CNN
 	1    5375 3425
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Polarized C209
+L BabyHuey-rescue:C_Polarized-Device C209
 U 1 1 6082C85E
 P 5000 4000
+AR Path="/6082C85E" Ref="C209"  Part="1" 
+AR Path="/61151ECA/6082C85E" Ref="C209"  Part="1" 
 F 0 "C209" H 5118 4046 50  0000 L CNN
 F 1 "10u 160V" H 5118 3955 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 5038 3850 50  0001 C CNN
@@ -536,12 +552,14 @@ $EndComp
 Wire Wire Line
 	5500 3125 5600 3125
 $Comp
-L Device:C_Polarized C206
+L BabyHuey-rescue:C_Polarized-Device C206
 U 1 1 6082C872
 P 3925 3675
+AR Path="/6082C872" Ref="C206"  Part="1" 
+AR Path="/61151ECA/6082C872" Ref="C206"  Part="1" 
 F 0 "C206" H 4043 3721 50  0000 L CNN
 F 1 "47u 160V" H 4043 3630 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 3963 3525 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 3963 3525 50  0001 C CNN
 F 3 "~" H 3925 3675 50  0001 C CNN
 	1    3925 3675
 	-1   0    0    1   
@@ -645,12 +663,14 @@ B+
 Text HLabel 6475 3125 2    50   Input ~ 0
 V_bias
 $Comp
-L Device:C_Polarized C207
+L BabyHuey-rescue:C_Polarized-Device C207
 U 1 1 608589BC
 P 4050 5400
+AR Path="/608589BC" Ref="C207"  Part="1" 
+AR Path="/61151ECA/608589BC" Ref="C207"  Part="1" 
 F 0 "C207" H 4168 5446 50  0000 L CNN
 F 1 "47u 25V" H 4168 5355 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 4088 5250 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4088 5250 50  0001 C CNN
 F 3 "~" H 4050 5400 50  0001 C CNN
 	1    4050 5400
 	-1   0    0    -1  
@@ -769,12 +789,14 @@ Wire Wire Line
 Wire Wire Line
 	5950 3925 5950 4225
 $Comp
-L Device:C_Polarized C211
+L BabyHuey-rescue:C_Polarized-Device C211
 U 1 1 6082C8C2
 P 5950 3775
+AR Path="/6082C8C2" Ref="C211"  Part="1" 
+AR Path="/61151ECA/6082C8C2" Ref="C211"  Part="1" 
 F 0 "C211" H 6068 3821 50  0000 L CNN
 F 1 "47u 160V" H 6068 3730 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 5988 3625 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 5988 3625 50  0001 C CNN
 F 3 "~" H 5950 3775 50  0001 C CNN
 	1    5950 3775
 	-1   0    0    1   
@@ -854,9 +876,11 @@ Text Notes 8625 875  0    39   ~ 0
 Text Notes 8625 1175 0    39   ~ 0
 The regulator gives protection to inrush\nMax V across the 22r resistor is V_Z - V_GS = 10 - 4 = 6\nMax current is 6/22 = 270mA
 $Comp
-L Device:C_Polarized C212
+L BabyHuey-rescue:C_Polarized-Device C212
 U 1 1 608A581B
 P 6925 2075
+AR Path="/608A581B" Ref="C212"  Part="1" 
+AR Path="/61151ECA/608A581B" Ref="C212"  Part="1" 
 F 0 "C212" H 7043 2121 50  0000 L CNN
 F 1 "10u 200V" H 7043 2030 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 6963 1925 50  0001 C CNN
