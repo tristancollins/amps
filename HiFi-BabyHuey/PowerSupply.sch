@@ -36,7 +36,7 @@ F 3 "~" H 2775 4225 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BabyHuey-rescue:C_Polarized-Device C201
+L Device:CP C201
 U 1 1 61155E86
 P 3225 3400
 AR Path="/61155E86" Ref="C201"  Part="1" 
@@ -49,7 +49,7 @@ F 3 "~" H 3225 3400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BabyHuey-rescue:C_Polarized-Device C202
+L Device:CP C202
 U 1 1 61157148
 P 3225 3925
 AR Path="/61157148" Ref="C202"  Part="1" 
@@ -109,7 +109,7 @@ F 3 "~" H 2775 5825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BabyHuey-rescue:C_Polarized-Device C203
+L Device:CP C203
 U 1 1 6116D2DD
 P 3225 5175
 AR Path="/6116D2DD" Ref="C203"  Part="1" 
@@ -122,7 +122,7 @@ F 3 "~" H 3225 5175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BabyHuey-rescue:C_Polarized-Device C204
+L Device:CP C204
 U 1 1 6116D2E3
 P 3225 5600
 AR Path="/6116D2E3" Ref="C204"  Part="1" 
@@ -210,7 +210,7 @@ F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 5375 1500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BabyHuey-rescue:C_Polarized-Device C208
+L Device:CP C208
 U 1 1 6119637C
 P 5000 2075
 AR Path="/6119637C" Ref="C208"  Part="1" 
@@ -258,7 +258,7 @@ $EndComp
 Wire Wire Line
 	3575 1200 3925 1200
 $Comp
-L BabyHuey-rescue:C_Polarized-Device C205
+L Device:CP C205
 U 1 1 611A5414
 P 3925 1775
 AR Path="/611A5414" Ref="C205"  Part="1" 
@@ -453,7 +453,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 1200 5950 1200
 $Comp
-L BabyHuey-rescue:C_Polarized-Device C210
+L Device:CP C210
 U 1 1 607FA8E7
 P 5950 1750
 AR Path="/607FA8E7" Ref="C210"  Part="1" 
@@ -517,7 +517,7 @@ F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 5375 3425 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BabyHuey-rescue:C_Polarized-Device C209
+L Device:CP C209
 U 1 1 6082C85E
 P 5000 4000
 AR Path="/6082C85E" Ref="C209"  Part="1" 
@@ -552,7 +552,7 @@ $EndComp
 Wire Wire Line
 	5500 3125 5600 3125
 $Comp
-L BabyHuey-rescue:C_Polarized-Device C206
+L Device:CP C206
 U 1 1 6082C872
 P 3925 3675
 AR Path="/6082C872" Ref="C206"  Part="1" 
@@ -663,7 +663,7 @@ B+
 Text HLabel 6475 3125 2    50   Input ~ 0
 V_bias
 $Comp
-L BabyHuey-rescue:C_Polarized-Device C207
+L Device:CP C207
 U 1 1 608589BC
 P 4050 5400
 AR Path="/608589BC" Ref="C207"  Part="1" 
@@ -789,7 +789,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 3925 5950 4225
 $Comp
-L BabyHuey-rescue:C_Polarized-Device C211
+L Device:CP C211
 U 1 1 6082C8C2
 P 5950 3775
 AR Path="/6082C8C2" Ref="C211"  Part="1" 
@@ -876,7 +876,7 @@ Text Notes 8625 875  0    39   ~ 0
 Text Notes 8625 1175 0    39   ~ 0
 The regulator gives protection to inrush\nMax V across the 22r resistor is V_Z - V_GS = 10 - 4 = 6\nMax current is 6/22 = 270mA
 $Comp
-L BabyHuey-rescue:C_Polarized-Device C212
+L Device:CP C212
 U 1 1 608A581B
 P 6925 2075
 AR Path="/608A581B" Ref="C212"  Part="1" 
