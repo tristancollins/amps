@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ESP)(type KiCad)(uri /Users/Tristan/Downloads/ESP32/uTracer_board/External/footprints/esp32_devkit_v1_doit.pretty)(options "")(descr ""))
+  (lib (name screen)(type KiCad)(uri /Users/Tristan/Downloads/ESP32/uTracer_board/External/SSD1306.pretty)(options "")(descr ""))
+)

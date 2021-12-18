@@ -1435,7 +1435,7 @@ Text Notes 8625 1150 0    39   ~ 0
 Wire Wire Line
 	1550 6475 1550 6575
 Text Notes 8625 925  0    39   ~ 0
-• What value for Shunt Resistor?
+• What value for Shunt Resistor? 22k or 33k according to forum. 39k is too large.
 Wire Notes Line
 	8525 550  8525 2000
 Wire Notes Line
