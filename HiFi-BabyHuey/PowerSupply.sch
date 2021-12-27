@@ -933,4 +933,6 @@ Wire Wire Line
 	4450 4500 4475 4500
 Wire Wire Line
 	4475 4500 4475 4825
+Text Notes 4550 4625 0    50   ~ 0
+LED brightness adjustment\nor fix set resistor
 $EndSCHEMATC
