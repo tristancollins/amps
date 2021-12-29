@@ -1,0 +1,308 @@
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "EL34" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 5.08 8.89 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EL34" (id 1) (at 6.35 -7.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Valve:Valve_Octal" (id 2) (at 7.62 -8.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.r-type.org/pdfs/el34.pdf" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_locked" "" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "ki_keywords" "pentode valve" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "pentode, 25W" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "VALVE*OCTAL*" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "EL34_0_0"
+      (pin no_connect line (at 7.62 -3.81 180) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "EL34_0_1"
+      (arc (start -5.08 -2.54) (mid 0 -7.62) (end 5.08 -2.54)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 3.81)
+          (xy -5.08 -2.54)
+          (xy -5.08 -2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 3.81)
+          (xy 5.08 -2.54)
+          (xy 5.08 -2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 5.08 3.81) (mid 0 8.89) (end -5.08 3.81)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "EL34_1_0"
+      (polyline
+        (pts
+          (xy -2.54 -5.08)
+          (xy -2.54 -7.62)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "EL34_1_1"
+      (polyline
+        (pts
+          (xy -5.08 -1.27)
+          (xy -3.175 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -4.445 2.54)
+          (xy -3.175 1.27)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 3.81)
+          (xy -2.794 3.81)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 5.08)
+          (xy -3.81 3.81)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.175 1.27)
+          (xy -2.794 1.27)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 -1.27)
+          (xy -3.175 -1.27)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.8542 1.27)
+          (xy -1.2192 1.27)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.8542 3.81)
+          (xy -1.2192 3.81)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.635 -1.27)
+          (xy 0.635 -1.27)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.3302 1.27)
+          (xy 0.3302 1.27)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.3302 3.81)
+          (xy 0.3302 3.81)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 6.35)
+          (xy 0 8.89)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.2192 1.27)
+          (xy 1.8542 1.27)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.2192 3.81)
+          (xy 1.8542 3.81)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.905 -1.27)
+          (xy 3.175 -1.27)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.794 1.27)
+          (xy 3.175 1.27)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.175 1.27)
+          (xy 5.08 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 3.81)
+          (xy 2.794 3.81)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 5.08)
+          (xy 3.81 3.81)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.8862 3.81)
+          (xy 5.08 3.81)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 4.445 2.54)
+          (xy 3.175 1.27)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 6.35)
+          (xy 2.54 6.35)
+          (xy 2.54 6.35)
+          (xy 2.54 6.35)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 2.54 -5.08) (mid 0 -3.0968) (end -2.54 -5.08)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin input line (at 7.62 3.81 180) (length 2.54)
+        (name "G3" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin output line (at 0 11.43 270) (length 2.54)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at 7.62 1.27 180) (length 2.54)
+        (name "G2" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -7.62 -1.27 0) (length 2.54)
+        (name "G1" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -2.54 -8.89 90) (length 3.81)
+        (name "F1" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "EL34_2_1"
+      (polyline
+        (pts
+          (xy -2.54 -6.35)
+          (xy -2.54 -5.08)
+          (xy -2.54 -5.08)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 -6.35)
+          (xy 2.54 -5.08)
+          (xy 2.54 -5.08)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 2.54 -5.08) (mid 0 -4.0279) (end -2.54 -5.08)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin power_in line (at -2.54 -10.16 90) (length 3.81)
+        (name "F1" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 2.54 -10.16 90) (length 3.81)
+        (name "F2" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
