@@ -1127,7 +1127,7 @@
     (property "Value" "Screw_Terminal_01x06" (id 1) (at 187.452 50.1396 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-6-5.0-H_1x06_P5.00mm_Horizontal" (id 2) (at 185.42 47.625 0)
+    (property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00302_1x06_P10.00mm_Horizontal" (id 2) (at 185.42 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 185.42 47.625 0)
@@ -1287,7 +1287,7 @@
     (property "Value" "Screw_Terminal_01x06" (id 1) (at 187.452 100.9396 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-6-5.0-H_1x06_P5.00mm_Horizontal" (id 2) (at 185.42 98.425 0)
+    (property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00302_1x06_P10.00mm_Horizontal" (id 2) (at 185.42 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 185.42 98.425 0)
@@ -2044,10 +2044,10 @@
       (reference "J111") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000608c596a"
-      (reference "J112") (unit 1) (value "Screw_Terminal_01x06") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-6-5.0-H_1x06_P5.00mm_Horizontal")
+      (reference "J112") (unit 1) (value "Screw_Terminal_01x06") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00302_1x06_P10.00mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000608d845f"
-      (reference "J113") (unit 1) (value "Screw_Terminal_01x06") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-6-5.0-H_1x06_P5.00mm_Horizontal")
+      (reference "J113") (unit 1) (value "Screw_Terminal_01x06") (footprint "TerminalBlock_RND:TerminalBlock_RND_205-00302_1x06_P10.00mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061076675"
       (reference "MH101") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
