@@ -1534,7 +1534,7 @@
     (effects (font (size 2.2606 2.2606)) (justify left bottom))
     (uuid dc7523a5-4408-4a51-bc92-6a47a538c094)
   )
-  (text "LED brightness adjustment\nor fix set resistor" (at 115.57 117.475 0)
+  (text "LED brightness adjustment\nor fixed set resistor" (at 115.57 117.475 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e0b36e60-bb2b-489c-a764-1b81e551ce62)
   )
