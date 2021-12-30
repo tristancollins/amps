@@ -1,0 +1,67 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# E-Switch 100DP1T1B1M2QEH
+#
+DEF 100DP1T1B1M2QEH SW 0 40 Y Y 1 L N
+F0 "SW" 0 300 50 H V L CNN 
+F1 "100DP1T1B1M2QEH" 0 400 50 H V L CNN 
+F2 "E-Switch-100DP1T1B1M2QEH-*" 0 500 50 H I L CNN 
+F3 "https://upverter.com/datasheet/be5d2790df6e409031dda087fefe17f36c96c5e6.pdf" 0 600 50 H I L CNN 
+F4 "10.41mm" 0 700 50 H I L CNN "Actuator Length"
+F5 "Brass, Chrome Plated" 0 800 50 H I L CNN "Actuator Material"
+F6 "Standard Round" 0 900 50 H I L CNN "Actuator Type"
+F7 "- CAP TOGGLE WHT FOR T1 ACT" 0 1000 50 H I L CNN "Associated Product"
+F8 "1/4-40" 0 1100 50 H I L CNN "Bushing Thread"
+F9 "DPDT" 0 1200 50 H I L CNN "Circuit"
+F10 "5A (AC/DC)" 0 1300 50 H I L CNN "Current Rating"
+F11 "40,000 Cycles" 0 1400 50 H I L CNN "Electrical Life"
+F12 "Epoxy Sealed Terminals" 0 1500 50 H I L CNN "Features"
+F13 "Non-Illuminated" 0 1600 50 H I L CNN "Illumination"
+F14 "-30°C ~ 85°C" 0 1700 50 H I L CNN "Operating Temperature"
+F15 "T121009" 0 1800 50 H I L CNN "Other Names"
+F16 "Bulk" 0 1900 50 H I L CNN "Packaging"
+F17 "Circular - 6.35mm Dia" 0 2000 50 H I L CNN "Panel Cutout Dimensions"
+F18 "25" 0 2100 50 H I L CNN "Standard Package"
+F19 "On-On" 0 2200 50 H I L CNN "Switch Function"
+F20 "PC Pin" 0 2300 50 H I L CNN "Termination Style"
+F21 "120V" 0 2400 50 H I L CNN "Voltage Rating - AC"
+F22 "28V" 0 2500 50 H I L CNN "Voltage Rating - DC"
+F23 "Switch" 0 2600 50 H I L CNN "category"
+F24 "Toggle Switch DPDT Panel Mount" 0 2700 50 H I L CNN "digikey description"
+F25 "EG2400-ND" 0 2800 50 H I L CNN "digikey part number"
+F26 "yes" 0 2900 50 H I L CNN "lead free"
+F27 "62520fa1794c1c3a" 0 3000 50 H I L CNN "library id"
+F28 "E-Switch" 0 3100 50 H I L CNN "manufacturer"
+F29 "Panel Mount" 0 3200 50 H I L CNN "mounting type"
+F30 "612-100-F1121" 0 3300 50 H I L CNN "mouser part number"
+F31 "SW_PTH_11MM43_12MM7" 0 3400 50 H I L CNN "package"
+F32 "yes" 0 3500 50 H I L CNN "rohs"
+F33 "+85°C" 0 3600 50 H I L CNN "temperature range high"
+F34 "-30°C" 0 3700 50 H I L CNN "temperature range low"
+DRAW
+X 2 2 100 0 100 R 40 0 1 1 U 
+X 1 1 500 100 100 L 40 0 1 1 U 
+X 3 3 500 -100 100 L 40 0 1 1 U 
+X 5 5 100 -400 100 R 40 0 1 1 U 
+X 4 4 500 -300 100 L 40 0 1 1 U 
+X 6 6 500 -500 100 L 40 0 1 1 U 
+C 230 0 20 1 1 0 N
+C 370 100 20 1 1 0 N
+P 2 1 1 0 250 10 390 70 N
+C 370 -100 20 1 1 0 N
+C 230 -400 20 1 1 0 N
+C 370 -300 20 1 1 0 N
+C 370 -500 20 1 1 0 N
+P 2 1 1 0 250 -390 390 -330 N
+P 2 1 1 0 310 30 310 0 N
+P 2 1 1 0 310 -30 310 -60 N
+P 2 1 1 0 310 -90 310 -120 N
+P 2 1 1 0 310 -150 310 -180 N
+P 2 1 1 0 310 -210 310 -240 N
+P 2 1 1 0 310 -330 310 -360 N
+P 2 1 1 0 310 -270 310 -300 N
+ENDDRAW
+ENDDEF
+#
+# End Library
