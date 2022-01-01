@@ -4,3 +4,4 @@
 _autosave*
 .DS_Store
 .bak
+*.kicad_prl
