@@ -596,7 +596,7 @@
     (property "Value" "220p" (id 1) (at 211.836 87.503 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" (id 2) (at 209.8802 90.17 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm" (id 2) (at 209.8802 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 208.915 86.36 0)
@@ -796,6 +796,9 @@
     (property "temperature range low" "-30°C" (id 34) (at 61.595 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
+    (property "mpn" "100DP1T1B1M2QEH" (id 35) (at 155.575 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 495265fd-6804-4a6a-9dd8-fafad4c55a3c))
     (pin "2" (uuid f3c7a967-d1fb-4162-b447-3a0a22f2c291))
     (pin "3" (uuid 66c60352-20c9-42c9-8e82-50af27290927))
@@ -810,7 +813,7 @@
 
   (symbol_instances
     (path "/00000000-0000-0000-0000-00005d947de2"
-      (reference "C1") (unit 1) (value "220p") (footprint "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm")
+      (reference "C1") (unit 1) (value "220p") (footprint "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm")
     )
     (path "/00000000-0000-0000-0000-00005ec5bdba"
       (reference "J1") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_Drill1.5mm")
