@@ -6,7 +6,8 @@
 
   (paper "A4")
   (title_block
-    (comment 4 "AISLER Project ID: JAIVYGBP")
+    (title "Mutineer Channel Select")
+    (comment 4 "AISLER Project ID: AWVSILGM")
   )
 
   (layers
@@ -404,20 +405,20 @@
     (attr exclude_from_pos_files)
     (fp_text reference "J4" (at 0 -3.81) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 975b065a-4fee-4d11-9f2f-b1d40a3629cb)
+      (tstamp d43cf615-aafb-42c6-91db-d03d1b33b6a9)
     )
     (fp_text value "Conn_01x01_Male" (at 0 3.81) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 16ded395-a862-4198-b3af-ba8c7fb298bb)
+      (tstamp 3a4c5515-4fbe-4892-ace1-1ab0b3ee00fa)
     )
     (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3559e287-424e-4397-b080-77c7ba6f395b)
     )
-    (fp_line (start -2.5 -2.5) (end -2.5 2.5) (layer "F.CrtYd") (width 0.05) (tstamp 23e66461-bcf2-4335-93c2-5c91dfd00187))
-    (fp_line (start 2.5 2.5) (end -2.5 2.5) (layer "F.CrtYd") (width 0.05) (tstamp 3934cdea-42c8-4ab1-b1be-2c4978ab08ae))
-    (fp_line (start 2.5 2.5) (end 2.5 -2.5) (layer "F.CrtYd") (width 0.05) (tstamp d0dfd7c1-401d-4f64-8463-f4c0813ac28f))
-    (fp_line (start -2.5 -2.5) (end 2.5 -2.5) (layer "F.CrtYd") (width 0.05) (tstamp dd2f6b13-9e35-4a67-90ac-cf0d1ea34e5a))
+    (fp_line (start -2.5 -2.5) (end -2.5 2.5) (layer "F.CrtYd") (width 0.05) (tstamp 15535c83-587a-4847-9957-3807322142c0))
+    (fp_line (start 2.5 2.5) (end 2.5 -2.5) (layer "F.CrtYd") (width 0.05) (tstamp 38a51d01-4274-44c4-a236-8cac38840c9d))
+    (fp_line (start -2.5 -2.5) (end 2.5 -2.5) (layer "F.CrtYd") (width 0.05) (tstamp 43bda124-db2d-4a75-8af4-8cb927c9415c))
+    (fp_line (start 2.5 2.5) (end -2.5 2.5) (layer "F.CrtYd") (width 0.05) (tstamp a75a5fcb-b583-41ff-a68b-4d6c36e397b0))
     (pad "1" thru_hole circle locked (at 0 0 180) (size 4.0005 4.0005) (drill 1.50114) (layers *.Cu *.Mask)
       (net 4 "Net-(J4-Pad1)") (pinfunction "Pin_1") (pintype "passive") (tstamp e6521bef-4109-48f7-8b88-4121b0468927))
   )
