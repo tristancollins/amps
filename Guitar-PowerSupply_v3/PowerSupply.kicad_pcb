@@ -3046,7 +3046,7 @@
   (gr_text "BiasA\nTP" (at 102.5 77.75) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005e2e1d5a)
     (effects (font (size 1.25 1.25) (thickness 0.3)))
   )
-  (gr_text "PowerSupply PCBv3\nTristan Collins\nJan 2021" (at 120 107) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005e2e22d6)
+  (gr_text "PowerSupply PCBv3\nTristan Collins\nJan 2022" (at 120 107) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005e2e22d6)
     (effects (font (size 1.25 1.25) (thickness 0.3)))
   )
   (gr_text "B+2\nFilter Cap" (at 107.2 53.8) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005e2e2642)
