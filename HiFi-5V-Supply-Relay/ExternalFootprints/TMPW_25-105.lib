@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# TMPW_25-105
+#
+DEF TMPW_25-105 PS 0 40 Y Y 1 L N
+F0 "PS" -500 230 50 H V L BNN
+F1 "TMPW_25-105" -500 -300 50 H V L BNN
+F2 "CONV_TMPW_25-105" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "April 20,2021" 0 0 50 H I L BNN "PARTREV"
+F5 "24mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "IPC 7351B" 0 0 50 H I L BNN "STANDARD"
+F7 "Traco Power" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -500 -200 500 200 0 0 10 f
+X AC_(N) 2 -700 -100 200 R 40 40 0 0 I 
+X AC_(L) 1 -700 100 200 R 40 40 0 0 I 
+X +VOUT 3 700 100 200 L 40 40 0 0 O 
+X -VOUT 4 700 -100 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
