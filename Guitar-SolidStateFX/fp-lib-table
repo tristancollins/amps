@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name EFX-BTDR)(type KiCad)(uri ${KIPRJMOD}/EFX-BTDR.pretty)(options "")(descr ""))
-  (lib (name TCcustom)(type KiCad)(uri ${KIPRJMOD}/TCcustom.pretty)(options "")(descr ""))
-  (lib (name KiCADinfo_Mousebites)(type KiCad)(uri ${KIPRJMOD}/KiCADinfo_Mousebites.pretty)(options "")(descr ""))
-)

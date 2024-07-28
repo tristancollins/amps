@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name TCcustom)(type KiCad)(uri ${KIPRJMOD}/TCcustom.pretty)(options "")(descr ""))
-  (lib (name eec)(type KiCad)(uri ${KIPRJMOD}/eec.pretty)(options "")(descr ""))
-)
