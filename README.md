@@ -1,5 +1,9 @@
 # Amps
-My amp pcbs
+## Generic Boards
+- General MOSFET breakout
+- General TO220 breakout
+
+I've moved my amp pcbs to their own repos.
 - Guitar Pre-amp
 - Guitar Phase Inverter (LTPI)
 - Guitar Valve-driven effects loop
@@ -17,5 +21,4 @@ https://www.tristancollins.me/ax84/Mutineer/Built/IMG_0031.jpg
 - HiFi Maida Regulator
 - HiFi 5V supply and mains relay
 - HiFi Baxandall Preamp
-- General MOSFET breakout
-- General TO220 breakout
+
